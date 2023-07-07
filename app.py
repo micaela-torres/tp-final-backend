@@ -12,7 +12,9 @@ CORS(app)
 
 # CONFIGURACIÓN A LA BASE DE DATOS
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root@localhost/tp-final"
+app.config[
+    "SQLALCHEMY_DATABASE_URI"
+] = "mysql+pymysql://mica2111:12345678mica@mica2111.mysql.pythonanywhere-services.com/mica2111$default"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 # CREAMOS EL OBJETO DB
